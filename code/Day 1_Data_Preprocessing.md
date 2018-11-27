@@ -23,6 +23,7 @@ print(y)
 ```
 ## 第3步：处理丢失数据
 [v0.17 sklearn.preprocessing.Imputer](http://lijiancheng0614.github.io/scikit-learn/modules/generated/sklearn.preprocessing.Imputer.html)
+
 [v0.20.1 sklearn.impute.SimpleImputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html)
 
 ```python
@@ -34,9 +35,13 @@ print(X)
 ```
 ## 第4步：解析分类数据
 [v0.17 sklearn.preprocessing.LabelEncoder](http://lijiancheng0614.github.io/scikit-learn/modules/generated/sklearn.preprocessing.LabelEncoder.html)
+
 [v0.20.1 sklearn.preprocessing.LabelEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
+
 [v0.17 sklearn.preprocessing.OneHotEncoder](http://lijiancheng0614.github.io/scikit-learn/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
+
 [v0.20.1 sklearn.preprocessing.OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
+
 ```python
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 labelencoder_X = LabelEncoder()
@@ -55,6 +60,7 @@ print(y)
 ```
 ## 第5步：拆分数据集为训练集合和测试集合
 [v0.20.1 sklearn.model_selection.train_test_split¶](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+
 ```python
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
@@ -65,6 +71,7 @@ print('y_test.shape = {}'.format(y_test.shape))
 ```
 ## 第6步：特征量化
 [v0.20.1 sklearn.preprocessing.StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
+
 ```python
 from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
