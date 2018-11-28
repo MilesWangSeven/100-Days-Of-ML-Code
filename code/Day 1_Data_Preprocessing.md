@@ -1,6 +1,6 @@
 # 数据预处理
 
-此例用到的[数据](../datasets/Data.csv),[代码](../Code/Day%201_Data_Preprocessing.ipynb)
+此例用到的[数据](../datasets/Data.csv),[代码](../code/Day%201_Data_Preprocessing.ipynb)
 
 <p align="center">
     <img src="../Info-graphs/Day 1.jpg">
