@@ -1,5 +1,7 @@
 # 简单线性回归
 
+此例用到的[数据](../datasets/studentscores.csv),[代码](../Code/Day%202_Simple_Linear_Regression.ipynb)
+
 <p align="center">
     <img src="../Info-graphs/Day 2.jpg">
 </p>
