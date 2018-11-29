@@ -24,12 +24,12 @@ dataset.head(5)
 [v0.20.1 sklearn.linear_model.LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
 ```python
 from sklearn.linear_model import LinearRegression
-regessor = LinearRegression()
-regessor.fit(X_train, y_train)
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
 ```
 ## 第三步:预测结果
 ```python
-y_pred = regessor.predict(X_test)
+y_pred = regressor.predict(X_test)
 ```
 ## 第四步:可视化
 ### 测试结果可视化
