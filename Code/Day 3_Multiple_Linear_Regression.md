@@ -1,4 +1,4 @@
-# 简单线性回归
+# 多元线性回归
 
 此例用到的[数据](../datasets/50_Startups.csv),[代码](../Code/Day%203_Multiple_Linear_Regression.ipynb)
 
